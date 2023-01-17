@@ -1,0 +1,76 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    background: lightblue;
+    font-size: 225px;
+    text-align: center;
+
+    animation: 5s 1s infinite running myslide1
+}
+
+@keyframes myslide1{
+    from{margin-left: -30%;}
+    to{margin-left: 100%;}
+}
+
+
+#box2{
+    width: 300px;
+    height: 250px;
+    background: rgb(230, 183, 173);
+    font-size: 225px;
+    text-align: center;
+
+    animation: 5s 2s infinite running myslide2
+    
+}
+@keyframes myslide2{
+    from{margin-left: -40%;}
+    to{margin-left: 100%;}
+}
+
+
+#box3{
+    width: 500px;
+    height: 250px;
+    background: rgb(178, 237, 178);
+    font-size: 225px;
+    text-align: center;
+
+    animation: 5s 3s infinite running myslide3
+    
+}
+@keyframes myslide3{
+    from{margin-left: -50%;}
+    to{margin-left: 100%;}
+}
+
+
+#box4{
+    width: 200px;
+    height: 250px;
+    background: lightgoldenrodyellow;
+    font-size: 225px;
+    text-align: center;
+
+    animation: 5s 3.5s infinite running myslide4
+}
+@keyframes myslide4{
+    from{margin-left: -60%;}
+    to{margin-left: 100%;}
+}
+
+
+#box5{
+    width: 600px;
+    height: 250px;
+    background: lightslategray;
+    font-size: 225px;
+    text-align: center;
+
+    animation: 5s 5s infinite running myslide4
+}
+@keyframes myslide5{
+    from{margin-left: -70%;}
+    to{margin-left: 100%;}
+}
